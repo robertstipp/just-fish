@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package justfish;
+
+// Message definition for a Fish
+message Fish {
+    int32 x = 1;
+    int32 y = 2;
+    int32 size = 3;
+}

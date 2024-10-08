@@ -1,0 +1,27 @@
+{
+  "options": {
+    "syntax": "proto3"
+  },
+  "nested": {
+    "justfish": {
+      "nested": {
+        "Fish": {
+          "fields": {
+            "x": {
+              "type": "int32",
+              "id": 1
+            },
+            "y": {
+              "type": "int32",
+              "id": 2
+            },
+            "size": {
+              "type": "int32",
+              "id": 3
+            }
+          }
+        }
+      }
+    }
+  }
+}
